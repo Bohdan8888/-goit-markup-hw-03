@@ -9,6 +9,11 @@ h6{
     margin-bottom: 0;
 }
 
+a{
+    color: #2E2F42;
+    text-decoration: none;
+}
+
 ul{
     margin-top: 0;
     margin-bottom: 0;
@@ -33,7 +38,7 @@ body{
     color:  #4d5ae5;
     margin-right: 76px;
     display: inline-block; 
-    padding: 24px 24px;
+    padding: 24px 0;
     
 }
 .studio{
@@ -42,7 +47,7 @@ body{
 
 .menu{
     margin-right: 0;
-
+    text-decoration: none;
 }
 
 
@@ -53,6 +58,7 @@ body{
     color: #2e2f42; 
     padding: 24px 0; 
     display: block;
+   
 }
 .li-class-link:hover,
 .li-class-link:focus{
@@ -65,7 +71,8 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding: 24px 24px;
+    padding: 24px 0;
+    display: block;
 }
 .class-adress-link:hover,
 .class-adress-link:focus{
@@ -76,6 +83,14 @@ body{
     padding: 188px 0 188px;
 
 }
+
+.ul-section-one{
+    display: flex;
+    gap: 24px;
+    
+    
+}
+
 .title-one{
     font-size: 56px;
     line-height: 1.7;
@@ -85,7 +100,8 @@ body{
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    margin: 0;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 
@@ -102,6 +118,10 @@ body{
     height: 56px;
     border: none;
     border-radius: 4px; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 48px;
+    margin-bottom: 188px
 
 }
 .type-button:hover, 
@@ -110,16 +130,7 @@ body{
   background-color:  #404bbf;
 }
 
-.title-h-thry-section-four{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px; 
-    text-align: left; 
-    margin-bottom: 8px;   
-}
+
 
 .title-h-thry{
     font-weight: 500;
@@ -148,6 +159,16 @@ body{
     background-color: #F4F4FD;
     padding: 120px 0 120px;
 }
+
+.ul-thry{
+    display: flex;
+    flex-wrap: wrap;  
+    column-gap: 24px;
+    
+    row-gap: 48px;
+   
+}
+ 
 .title-section-thry{
     font-size: 36px;
     line-height: 1.11;
@@ -160,16 +181,8 @@ body{
 }
 
 
-.footer{
-    background-color:  #2e2f42;
-    padding: 100px 0 100px;
-}
-.paragraf-footer{
-    line-height: 1.5;
-    color:  #F4F4FD;
-    letter-spacing: 0.02em;
-    max-width: 264px; 
-}
+
+
 .studio-class{
     color:  #f4f4fd;
 }
@@ -185,25 +198,27 @@ img{
 .box-one{
     display: flex;
     justify-content: space-between;
+   align-items: center;
+    
+   
 }
 .container{
     width: 1158px;
     margin-left: auto;
     margin-right: auto;
     padding: 0 15px;
+    
 }
 .nav{
     display: flex;
     align-items: center;
-
+    
 }
 .li-flex{
     
     display: flex; 
     gap: 40px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
+   
   
 }
 .adress-title{
@@ -233,32 +248,19 @@ img{
     padding: 120px 0 120px;  
 }
  .visually-hidden {
-    position: absolute !important;
-    visibility: hidden !important;
-    pointer-events: none !important;
-    clip: rect(0 0 0 0) !important;
-    clip-path: inset(100%) !important;
-    width: 1px !important;
-    height: 1px !important;
-    margin: -1px !important;
-    padding: 0 !important;
-    border: 0 !important;
-    text-indent: -9999px !important;
-    white-space: nowrap !important;
-    overflow: hidden !important;
-    -webkit-user-select: none !important;
-    -moz-user-select: none !important;
-    -ms-user-select: none !important;
-    user-select: none !important;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
   }
 
-.ul-section-one{
-    display: flex;
-    gap: 24px;
-    padding-left: 0;
-    margin: 0;
-    
-}
+
 .li-section-one{
     
     flex-basis: calc((100% - 3 * 24px) / 4); 
@@ -269,8 +271,7 @@ img{
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding: 0;
-    margin: 0;
+   
    
 }
 
@@ -291,15 +292,18 @@ img{
     padding: 120px 0 120px 0;
 }
 
-.ul-thry{
-    display: flex;
-    flex-wrap: wrap;  
-    column-gap: 24px;
-    
-    row-gap: 48px;
-    padding: 0;
+
+.title-h-thry-section-four{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px; 
+    text-align: left; 
+    margin-bottom: 8px;   
 }
- 
+
 
 
 .container-title-portfolio{
@@ -310,7 +314,7 @@ img{
     
 }
 
-.li-fore{
+.li-fore-section{
 
     width: calc((100% - 48px) / 3);
 
@@ -326,6 +330,18 @@ img{
     color:  #4d5ae5;
    
     display: inline-block; 
-    padding: 24px 24px;
+    
     margin-bottom: 16px;
+}
+
+.footer{
+    background-color:  #2e2f42;
+    padding: 100px 0 100px;
+}
+
+.paragraf-footer{
+    line-height: 1.5;
+    color:  #F4F4FD;
+    letter-spacing: 0.02em;
+    max-width: 264px; 
 }
