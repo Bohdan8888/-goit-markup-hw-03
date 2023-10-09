@@ -121,7 +121,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     margin-top: 48px;
-    margin-bottom: 188px
+   
 
 }
 .type-button:hover, 
@@ -224,7 +224,7 @@ img{
 .adress-title{
     display: flex; 
     gap: 40px;
-    margin-right: 40px;
+    
 }
 
 .paragraf-class-section-one{
